@@ -19,3 +19,6 @@ jobs:
       - name: Build Images
         working-directory: ./
         run: docker compose build
+      - name: Test
+        working-directory: ./
+        run: docker compose up
