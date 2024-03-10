@@ -1,0 +1,5 @@
+services:
+  seq-demo:
+    build:
+      context: ./ch_01
+    image: seq-demo:0.1
